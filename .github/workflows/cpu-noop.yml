@@ -46,4 +46,4 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Verify CPU runner access
-        run: echo "CPU runner access verified."
+        run: echo "CPU runner access verified after CodeQL analysis of $GITHUB_SHA."
